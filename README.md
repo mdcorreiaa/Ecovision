@@ -304,10 +304,3 @@ normalmente.
 | Erro de conexão com MySQL | Serviço não iniciado ou credenciais erradas | Verifique `DB_*` no `.env` e se o MySQL está rodando |
 | Mapa aparece vazio | CSV do CNUC importado não possui colunas de latitude/longitude | Normal — o CNUC nem sempre disponibiliza geolocalização por unidade; a estrutura já está pronta para exibir assim que dados geográficos existirem |
 | Rosto não reconhecido com frequência | Iluminação ruim ou poucas amostras no cadastro | Refaça o cadastro biométrico com mais luz e mais amostras (`qtd_amostras`) |
-
-## 14. Correspondência com a APS
-
-Ver checklist detalhada ao final desta entrega (documento acadêmico) —
-cada requisito obrigatório do documento de orientações da APS foi
-mapeado para o módulo/arquivo correspondente neste repositório, de modo
-que a documentação e o código representem exatamente a mesma solução.
